@@ -1,0 +1,318 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    overflow-x:hidden;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+
+
+.top-header{
+    background:#fff;
+    padding:25px 0;
+}
+
+.logo{
+    max-width:320px;
+}
+
+.top-header .d-flex div{
+    font-size:14px;
+    color:#555;
+}
+
+
+
+.custom-nav{
+    background:#0C97DB;
+    border-radius:15px;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-20px;
+    position:relative;
+    z-index:100;
+}
+
+.custom-nav .navbar-nav{
+    gap:20px;
+}
+
+.custom-nav .nav-link{
+    color:#fff !important;
+    font-weight:500;
+}
+
+.custom-nav .nav-link.active{
+    font-weight:700;
+}
+
+
+
+.hero-section{
+    position:relative;
+}
+
+.hero-image{
+    width:100%;
+    display:block;
+}
+
+.hero-content{
+    position:absolute;
+    top:160px;
+    left:60px;
+    color:#fff;
+    z-index:10;
+}
+
+.hero-content h1{
+    font-size:60px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:24px;
+}
+
+
+
+.bg-light{
+    background:#f6f6f6 !important;
+}
+
+.bg-light h2{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.bg-light p{
+    max-width:850px;
+    margin:auto;
+}
+
+
+
+.py-5 h2{
+    font-size:42px;
+    font-weight:700;
+}
+
+.py-5 p{
+    color:#555;
+}
+
+.py-5 img{
+    width:100%;
+    border-radius:20px;
+}
+
+
+
+.btn-primary{
+    background:#0C97DB;
+    border:none;
+    padding:12px 28px;
+}
+
+.btn-primary:hover{
+    background:#087fbc;
+}
+
+
+
+.services-section{
+    background:#112238;
+}
+
+.services-section h2{
+    font-size:48px;
+    font-weight:700;
+}
+
+.service-card{
+    background:#324154;
+    color:#fff;
+    padding:25px;
+    border-radius:12px;
+    height:100%;
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-5px);
+}
+
+.service-card h4{
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+
+
+.bg-light img{
+    max-height:90px;
+    object-fit:contain;
+}
+
+
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+
+
+.cta-section{
+    background:linear-gradient(
+        180deg,
+        #0A1628 0%,
+        #132244 50%,
+        #1A3A6E 100%
+    );
+    color:#fff;
+}
+
+.cta-section h2{
+    font-size:42px;
+    font-weight:700;
+}
+
+.cta-section .btn{
+    background:#12B8F6;
+    color:#fff;
+    border:none;
+    padding:12px 32px;
+    border-radius:10px;
+    font-weight:600;
+    transition:all .3s ease;
+}
+
+.cta-section .btn:hover{
+    background:#0C97DB;
+    color:#fff;
+    transform:translateY(-2px);
+}
+
+
+
+.footer-section{
+    background:#142C47;
+    color:#fff;
+}
+
+.footer-section h4{
+    margin-bottom:20px;
+}
+
+.footer-section ul li{
+    margin-bottom:10px;
+}
+
+.footer-section ul li:hover{
+    color:#0C97DB;
+}
+
+.footer-section input{
+    margin-top:10px;
+}
+
+
+
+@media(max-width:992px){
+
+    .hero-content{
+        top:80px;
+        left:30px;
+    }
+
+    .hero-content h1{
+        font-size:40px;
+    }
+
+    .hero-content p{
+        font-size:18px;
+    }
+
+    .bg-light h2,
+    .services-section h2,
+    .cta-section h2{
+        font-size:34px;
+    }
+}
+
+@media(max-width:768px){
+
+    .hero-content{
+        top:40px;
+        left:20px;
+    }
+
+    .hero-content h1{
+        font-size:28px;
+    }
+
+    .hero-content p{
+        font-size:14px;
+    }
+
+    .custom-nav{
+        border-radius:8px;
+        margin-top:0;
+    }
+
+    .top-header .d-flex{
+        flex-direction:column;
+        text-align:center;
+        gap:10px !important;
+    }
+}
+
+.navbar-nav{
+    margin:auto;
+}
+
+@media (max-width:768px){
+.footer-section img{
+    width:220px;
+    height:auto;
+    display:block;
+    margin:0 auto 20px;
+}
+
+}
+
+@media (max-width:768px){
+.cta-section{
+    text-align:center;
+}
+.cta-section .btn{
+    margin-top:20px;
+}
+
+}
