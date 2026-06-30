@@ -524,7 +524,17 @@ ul{
 @media(max-width:768px){
 
     .top-header{
+        text-align:center;
         padding-bottom:15px;
+    }
+
+    .header-right{
+        flex-direction:column;
+        gap:15px !important;
+    }
+
+    .contact-item{
+        justify-content:center;
     }
 
     .custom-nav{
@@ -560,3 +570,4 @@ ul{
         font-size:13px;
     }
 }
+ 
